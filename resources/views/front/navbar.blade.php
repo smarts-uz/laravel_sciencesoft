@@ -43,7 +43,7 @@
             <ul class="dropdown-container-Services hidden flex-col mt-6 ml-4">
               <h1 class="mb-2 mt-2 font-extrabold">Services Types</h1>
               <hr class="border-b-2 w-12 border-yellow-500">
-              <a href="#"><li class="mt-4">Software Development</li></a>
+              <a href="/services/software-development"><li class="mt-4">Software Development</li></a>
               <a href="#"><li class="mt-4">Testing and QA</li></a>
               <a href="#"><li class="mt-4">Application Services</li></a>
               <a href="#"><li class="mt-4">UI/UX Design</li></a>
@@ -104,7 +104,7 @@
               </ul>
            <a href="#"><li class="mt-4 cursor-pointer">Case Studies</li></a>
            <a href="#"><li class="mt-4 cursor-pointer">Blog</li></a>
-           <a href="/contact-us.html"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">Let's Talk</li></a>
+           <a href="/contact-us"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">Let's Talk</li></a>
         </ul>
       </div>
       <div class="mb-8">
@@ -115,13 +115,14 @@
     <div class="px-10 md:px-16 lg:px-16 py-4 ">
       <div class="flex justify-between items-center">
         <a href="/">
-        <img class="w-32"
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-          alt="Microsoft ASP.NET"></a>
+          <img class="w-32"
+            src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+            alt="Microsoft ASP.NET">
+         </a>
         <div id="searchbar" class="flex justify-end items-center w-4/5">
           <ul class="w-11/12 hidden  lg:flex  justify-end items-center font-semibold list-none uppercase text-black">
             <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
-              <a id="about" class=" relative py-6" href="#">
+              <a id="about" class=" relative py-6" href="">
               About
               <div id="aboutHover" class=" hidden flex absolute left-0  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
                 <div class="w-1/5">
@@ -184,7 +185,7 @@
                     Service types</h1>
                   <hr class="border-b-2 w-12 border-yellow-500">
                   <ul>
-                  <a href="#"><li class="mt-4 text-black hover:text-blue-700">Software Development</li></a>
+                  <a href="/services/software-development"><li class="mt-4 text-black hover:text-blue-700">Software Development</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">Testing and QA</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">Application Services</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">UI/UX Design</li></a>
@@ -324,12 +325,11 @@
         <div class=" sm:mt-0 sm:w-full sm:px-8 flex-col md:flex-row flex-wrap  justify-between">
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
-              <span>
-                <a href="/">
-        <img class="w-32"
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-          alt="Microsoft ASP.NET"></a>
-              </span>
+               <a href="/">
+                  <img class="w-32"
+                    src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                    alt="Microsoft ASP.NET">
+                </a>
               <span class="my-2 text-white flex flex-row items-start text-base  mt-4">
                 <i class="fas fa-map-marker-alt"></i>
                 <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">5900 S. Lake Forest Drive

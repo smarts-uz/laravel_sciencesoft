@@ -19,7 +19,14 @@
   <body>
 
     <div class="wrapper">
-      @include('front.navbar')
+    
+    @include('front.components.navbar')
+
+    @yield('main')
+
+    @include('front.components.footer')
+
+             
     </div>
 
   @yield('js')
