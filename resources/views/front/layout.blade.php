@@ -22,7 +22,7 @@
     
     @include('front.components.navbar')
 
-        
+    @yield('main')
 
     @include('front.components.footer')
 
