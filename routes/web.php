@@ -17,4 +17,19 @@ Route::get('/', function () {
     return view('front.index');
 });
 
+Route::get('/contact-us',function() {
+    return view('front.contact-us');
+});
+Route::get('/about/careers',function() {
+    return view('front.about.careers');
+});
+
+Route::get('/services/software-development',function() {
+    return view('front.services.software-development');
+});
+
+Route::get('/about/locations',function() {
+    return view('front.about.locations');
+});
+
 

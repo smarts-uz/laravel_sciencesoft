@@ -86,3 +86,11 @@ function closedropdownIndustries() {
   arrowDownIndustries.style.display = "inline-block";
   arrowUpIndustries.style.display = "none";
 }
+
+function scrollToUp() {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth',
+  });
+}

@@ -16,19 +16,23 @@
         satisfy the needs of today and unlock the opportunities of tomorrow.</p>
     </div>
  <div class="container">
-        <section class="customer-logos slider px-16">
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/baxter.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/deloitte.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ebay.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ford.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ibm.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/leo-burnett.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nasa_1.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nestle.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/tieto.svg') }}" alt="logo"></div>
-          <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/viber.svg') }}" alt="logo"></div>
-        </section>
-      </div>
+    <section class="customer-logos slider px-16">
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/baxter.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/deloitte.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ebay.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ford.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ibm.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/leo-burnett.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nasa_1.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nestle.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/tieto.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/viber.svg') }}" alt="logo"></div>
+    </section>
+  </div>
+
+
+
+
   <!-- EXPLORE OUR OFFERING Responsive -->
   <div class="carousel relative shadow-2xl bg-white px-10 py-10 block lg:hidden">
     <div class="carousel-inner relative overflow-hidden w-full">
@@ -747,6 +751,9 @@
 
     </div>
   
+
+
+
   <div class="px-16 home-page-form-1">
     <h1 class="text-center text-gray-500 mt-10 mb-20 text-xl">Haven't found a suitable service? Type your need below!</h1>
     <!-- Forms -->
@@ -922,9 +929,6 @@
 
 
 
-
-
-
   <!-- Ahadov ILhomjon -->
  
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
@@ -933,6 +937,9 @@
     <hr class="w-10 h-1 bg-pink-600">
   </div>
   </h1>
+
+
+
   <div class='flex flex-row flex-wrap justify-between'>
     <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
       <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
@@ -978,6 +985,7 @@
   </div>
   <!-- Need a CONSULTATION? -->
   </div>
+
   <h1 class="px-16 text-3xl py-12">
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-pink-600">

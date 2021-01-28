@@ -15,10 +15,10 @@
             <hr class="border-b-2 w-12 border-yellow-500">
             <a href="#"><li class="mt-4">About Company</li></a>
             <a href="#"><li class="mt-4">Management Team</li></a>
-            <a href="#"><li class="mt-4">Careers</li></a>
+            <a href="/about/careers"><li class="mt-4">Careers</li></a>
             <a href="#"><li class="mt-4">Partnerships</li></a>
             <a href="#"><li class="mt-4">ScienceSoft Referral Program</li></a>
-            <a href="#"><li class="mt-4">Our Locations</li></a>
+            <a href="/about/locations"><li class="mt-4">Our Locations</li></a>
             <h1 class="mb-2 mt-2 font-extrabold">Approach</h1>
             <hr class="border-b-2 w-12 border-yellow-500">
             <a href="#"><li class="mt-4">Development Process</li></a>
@@ -114,9 +114,10 @@
     </div>
     <div class="px-10 md:px-16 lg:px-16 py-4 ">
       <div class="flex justify-between items-center">
+        <a href="/">
         <img class="w-32"
           src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-          alt="Microsoft ASP.NET">
+          alt="Microsoft ASP.NET"></a>
         <div id="searchbar" class="flex justify-end items-center w-4/5">
           <ul class="w-11/12 hidden  lg:flex  justify-end items-center font-semibold list-none uppercase text-black">
             <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
@@ -136,10 +137,10 @@
                   <ul>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
-                  <a href="#"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
+                  <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
                   <a href="#"><li class="mt-4 text-black hover:text-blue-700">ScienceSoft Referral Program</li></a>
-                  <a href="#"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
+                  <a href="/about/locations"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
                 </ul>
                 </div>
                 <div class="w-1/5 list-none">
@@ -301,11 +302,20 @@
       </div>
     </div>
 
-<!-- endnavbar -->
-<div class="content-wrapper">
-            @yield('main')
-</div>
-<!-- footer -->
+
+
+
+
+  <!-- endnavbar -->
+  <div class="content-wrapper">
+    @yield('main')
+  </div>
+
+  <!-- Scroll Top  -->
+  <div onclick="scrollToUp()"
+    class="fixed bottom-3 left-3 bg-blue-700 opacity-50 z-50 flex justify-center items-center cursor-pointer w-8 h-8 rounded-full text-white hover:opacity-100">
+    <i class="fa fa-chevron-up text-white"></i>
+  </div>
 
   <!-- FOOTER -->
   <footer class="footer bg-blue-900 relative px-4 md:px-10  lg:px-16 py-6 ">
@@ -315,9 +325,10 @@
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
               <span>
-                <img class="w-56 mt-4"
+                <a href="/">
+        <img class="w-32"
           src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-          alt="Microsoft ASP.NET">
+          alt="Microsoft ASP.NET"></a>
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base  mt-4">
                 <i class="fas fa-map-marker-alt"></i>
@@ -368,6 +379,11 @@
       </div>
     </div>
   </footer>
+
+  
+@section('js')
+
+@endsection
 
 <!-- endfooter -->
  

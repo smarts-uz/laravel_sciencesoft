@@ -19,10 +19,7 @@
   <body>
 
     <div class="wrapper">
-    
-    @include('front.navbar')
-
-             
+      @include('front.navbar')
     </div>
 
   @yield('js')
