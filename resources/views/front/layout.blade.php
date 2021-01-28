@@ -20,7 +20,11 @@
 
     <div class="wrapper">
     
-    @include('front.navbar')
+    @include('front.components.navbar')
+
+        
+
+    @include('front.components.footer')
 
              
     </div>

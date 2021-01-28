@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
+// Route::get('/', function () {
+//     return view('front.index');
+// });
 
+Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+Route::get('/contact', 'App\Http\Controllers\Front\softController@contact')->name('contact');
 
